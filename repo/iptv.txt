@@ -269,19 +269,19 @@ http://livecdn.fptplay.net/hda2/travelliving_vhls.smil/chunklist_b5000000.m3u8
 
 
 #___DAI DIA PHUONG____
-#EXTINF:-1 tvg-id="vtvcab1hd" group-title="VĂN HÓA - NGHỆ THUẬT & GIẢI TRÍ" tvg-logo="https://i.imgur.com/86M8nJ2.png" catchup="append" catchup-days="2" catchup-source="https://api.vthanhtivi.pw/v1/dvr/vieon/vie-giai-tri-hd/${start}/${offset}",VTVcab1 - Vie Giải Trí
+#EXTINF:-1 tvg-id="vtvcab1hd" group-title="Văn Hoá - Nghệ Thuật - Giải Trí" tvg-logo="https://i.imgur.com/86M8nJ2.png" catchup="append" catchup-days="2" catchup-source="https://api.vthanhtivi.pw/v1/dvr/vieon/vie-giai-tri-hd/${start}/${offset}",VTVcab1 - Vie Giải Trí
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 https://856175157.r.vtvcdn.com/ondrm/GIAITRI_TV_HD/m20_index.m3u8
-#EXTINF:-1 tvg-id="vtvcab2hd" group-title="PHIM TRUYỆN TRONG & NGOÀI NƯỚC" tvg-logo="https://i.imgur.com/UVhLDh4.png",ON Phim Việt
+#EXTINF:-1 tvg-id="vtvcab2hd" group-title="Phim Truyện Trong & Ngoài Nước" tvg-logo="https://i.imgur.com/UVhLDh4.png",ON Phim Việt
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36
 https://856175157.r.vtvcdn.com/ondrm/PHIM_VIET/m20_index.m3u8
-#EXTINF:-1 tvg-id="vtvcab5hd" group-title="PHIM TRUYỆN TRONG & NGOÀI NƯỚC" tvg-logo="https://i.imgur.com/XhtsKmb.png",VTVcab 5 - E Channel
+#EXTINF:-1 tvg-id="vtvcab5hd" group-title="Phim Truyện Trong & Ngoài Nước" tvg-logo="https://i.imgur.com/XhtsKmb.png",VTVcab 5 - E Channel
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36
 https://856175157.r.vtvcdn.com/ondrm/E_CHANNEL/m30_index.m3u8
-#EXTINF:-1 tvg-id="vtvcab10hd" group-title="PHIM TRUYỆN TRONG & NGOÀI NƯỚC" tvg-logo="https://i.imgur.com/OIVICQx.png",ON Cine
+#EXTINF:-1 tvg-id="vtvcab10hd" group-title="Phim Truyện Trong & Ngoài Nước" tvg-logo="https://i.imgur.com/OIVICQx.png",ON Cine
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36
 https://856175157.r.vtvcdn.com/ondrm/O2_TV/m20_index.m3u8
-#EXTINF:-1 tvg-id="vtvcab19hd" group-title="PHIM TRUYỆN TRONG & NGOÀI NƯỚC" tvg-logo="https://i.imgur.com/8e5aeiW.png",VTVcab 19 - Vie Dramas
+#EXTINF:-1 tvg-id="vtvcab19hd" group-title="Phim Truyện Trong & Ngoài Nước" tvg-logo="https://i.imgur.com/8e5aeiW.png",VTVcab 19 - Vie Dramas
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36
 https://856175157.r.vtvcdn.com/ondrm/FILM_TV/m20_index.m3u8
 #EXTINF:0 group-title="Quảng Cáo" tvg-logo="https://imgur.com/HwMUDwy.png" catchup="append" catchup-days="0.3" catchup-source="https://tshift.fptplay.net/dvr/vtvhyundai_1000.stream/chunks_dvr_range-${start}-10800.m3u8",VTVCab13 - VTV Huyndai Homeshopping
@@ -524,7 +524,7 @@ https://livecdn.fptplay.net/hda1/quochoivn_vhls.smil/chunklist_b5000000.m3u8
 https://livecdn.fptplay.net/sdc/truyenhinhnhandan_hls.smil/chunklist_b2500000.m3u8
 
 
-#EXTINF:-1 tvg-id="youtv" group-title="VĂN HÓA - NGHỆ THUẬT & GIẢI TRÍ" tvg-logo="https://imgur.com/TNHxeXv.png",YouTV
+#EXTINF:-1 tvg-id="youtv" group-title="Văn Hoá - Nghệ Thuật - Giải Trí" tvg-logo="https://imgur.com/TNHxeXv.png",YouTV
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
 https://livecdn.fptplay.net/sdb/youtv_hls.smil/chunklist_b2500000.m3u8
 
@@ -570,7 +570,7 @@ https://livecdn.fptplay.net/hda2/btv4hd_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:-1 tvg-id="binhduong6" group-title="Địa Phương" tvg-logo="https://i.imgur.com/fDZIkFv.png",BTV6 - Bình Dương 6
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
 https://livecdn.fptplay.net/sda/btv6_hls.smil/chunklist_b2500000.m3u8
-#EXTINF:-1 tvg-id="anvienhd" group-title="VĂN HÓA - NGHỆ THUẬT & GIẢI TRÍ" tvg-logo="https://i.imgur.com/k9FyzM3.png",BTV9 HD - Bình Dương 9
+#EXTINF:-1 tvg-id="anvienhd" group-title="Văn Hoá - Nghệ Thuật - Giải Trí" tvg-logo="https://i.imgur.com/k9FyzM3.png",BTV9 HD - Bình Dương 9
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
 https://livecdn.fptplay.net/sdc/btv9_hls.smil/chunklist_b2500000.m3u8
 #EXTINF:-1 tvg-id="binhduong11" group-title="Quảng Cáo" tvg-logo="https://i.imgur.com/4woLlC3.png",BTV11 - Top Shopping
