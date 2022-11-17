@@ -627,9 +627,6 @@ https://api.vthanhtivi.pw/v1/getlink/tv360_s2/99/2
 #EXTINF:-1 tvg-id="cinemaworldhd" group-title="Quốc Tế" tvg-name="Cinema World" tvg-logo="https://i.imgur.com/MqpUsLb.png",Cinema World
 http://livecdn.fptplay.net/hda2/cinemawork_vhls.smil/chunklist_b5000000.m3u8
 
-#EXTINF:-1 tvg-id="kix" group-title="Quốc Tế" tvg-name="KIX" tvg-logo="https://i.imgur.com/EIpDxnQ.png",KIX
-http://livecdn.fptplay.net/hda1/kixhd_vhls.smil/chunklist_b5000000.m3u8
-
 #EXTINF:-1 tvg-id="hits" group-title="Quốc Tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/233.png", HITS
 https://api.vthanhtivi.pw/v1/getlink/tv360_s2/107/2
 
@@ -645,12 +642,15 @@ http://livecdn.fptplay.net/hda3/warnertv_vhls.smil/chunklist_b5000000.m3u8
 
 
 #_____KENH BI LOI______
+#EXTINF:-1 tvg-id="kix" group-title="Quốc Tế" tvg-name="KIX" tvg-logo="https://i.imgur.com/EIpDxnQ.png",KIX
+#http://livecdn.fptplay.net/hda1/kixhd_vhls.smil/chunklist_b5000000.m3u8
+
 #EXTINF:-1 tvg-id="boxmovie1" group-title="Quốc Tế" tvg-logo="https://i.ibb.co/gFc8c04/BM1-M.png",Box movie¹
 #EXTVLCOPT:http-user-agent=TB-SPORT
-https://api.tbtv.us/clVTVCab/c7081cb61079225271bc0e990d15c8a4cd15d72a/822
+#https://api.tbtv.us/clVTVCab/c7081cb61079225271bc0e990d15c8a4cd15d72a/822
 
 #EXTINF:-1 tvg-id="hollywoodclassics" group-title="Quốc Tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/188.png", Hollywood Classics SCTV
-https://api.tbtv.us/clVTVCab/c7081cb61079225271bc0e990d15c8a4cd15d72a/825
+#https://api.tbtv.us/clVTVCab/c7081cb61079225271bc0e990d15c8a4cd15d72a/825
 
 #EXTINF:-1 tvg-id="historyhd" group-title="Quốc Tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/209.png", History HD
 #http://live.vthanhtivi.pw:8080/history
