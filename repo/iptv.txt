@@ -135,7 +135,7 @@ https://api.vthanhtivi.pw/v1/getlink/tv360_s2/99/2
 http://livecdn.fptplay.net/hda2/cinemawork_vhls.smil/chunklist_b5000000.m3u8
 
 #EXTINF:-1 tvg-id="kix" group-title="Quốc Tế" tvg-name="KIX" tvg-logo="https://i.imgur.com/EIpDxnQ.png",KIX
-http://livecdn.fptplay.net/hda1/kixhd_vhls.smil/chunklist_b5000000.m3u8
+#http://livecdn.fptplay.net/hda1/kixhd_vhls.smil/chunklist_b5000000.m3u8
 
 #EXTINF:-1 tvg-id="hits" group-title="Quốc Tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/233.png", HITS
 https://api.vthanhtivi.pw/v1/getlink/tv360_s2/107/2
