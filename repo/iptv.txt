@@ -647,10 +647,13 @@ http://livecdn.fptplay.net/hda3/warnertv_vhls.smil/chunklist_b5000000.m3u8
 #_____KENH BI LOI______
 #EXTINF:-1 tvg-id="boxmovie1" group-title="Quốc Tế" tvg-logo="https://i.ibb.co/gFc8c04/BM1-M.png",Box movie¹
 #EXTVLCOPT:http-user-agent=TB-SPORT
-https://api.tbtv.us/clVTVCab/c7081cb61079225271bc0e990d15c8a4cd15d72a/822
+#https://api.tbtv.us/clVTVCab/c7081cb61079225271bc0e990d15c8a4cd15d72a/822
+http://code.television4you.xyz/cliptv.php?id=822
 
 #EXTINF:-1 tvg-id="hollywoodclassics" group-title="Quốc Tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/188.png", Hollywood Classics SCTV
-https://api.tbtv.us/clVTVCab/c7081cb61079225271bc0e990d15c8a4cd15d72a/825
+#https://api.tbtv.us/clVTVCab/c7081cb61079225271bc0e990d15c8a4cd15d72a/825
+http://code.television4you.xyz/cliptv.php?id=825
+
 
 #EXTINF:-1 tvg-id="historyhd" group-title="Quốc Tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/209.png", History HD
 #http://live.vthanhtivi.pw:8080/history
@@ -726,7 +729,7 @@ http://pluto-live.plutotv.net/egress/chandler/pluto01/live/VIACBS08/master_2400.
 
 #EXTINF:0 group-title="Quốc Tế" tvg-logo="https://i.ibb.co/0rRzrj4/deejay.png",Deejay TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-https://streamcdne1-4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S85984808/sMO0tz9Sr2Rk/chunklist_b2816000.m3u8?cc
+#https://streamcdne1-4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S85984808/sMO0tz9Sr2Rk/chunklist_b2816000.m3u8?cc
 
 #EXTINF:0 group-title="Quốc Tế" tvg-logo="https://i.ibb.co/VMP2hFL/v2beat.jpg",V2 Beat
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
@@ -798,11 +801,14 @@ http://livecdn.fptplay.net/hda1/outdoorfhd_vhls.smil/chunklist_b5000000.m3u8
 
 #EXTINF:-1 group-title="Quốc Tế" tvg-id="man" tvg-logo="https://i.ibb.co/HzMBHnp/man.png", MAN
 #EXTVLCOPT:http-user-agent=TB-SPORT
-https://api.tbtv.us/clVTVCab/c7081cb61079225271bc0e990d15c8a4cd15d72a/837
+#https://api.tbtv.us/clVTVCab/c7081cb61079225271bc0e990d15c8a4cd15d72a/837
+http://code.television4you.xyz/cliptv.php?id=837
 
 #EXTINF:-1 group-title="Quốc Tế" tvg-id="woman" tvg-logo="https://i.ibb.co/CBSf3yt/Woman.png", WOMAN
 #EXTVLCOPT:http-user-agent=TB-SPORT
-https://api.tbtv.us/clVTVCab/c7081cb61079225271bc0e990d15c8a4cd15d72a/827
+#https://api.tbtv.us/clVTVCab/c7081cb61079225271bc0e990d15c8a4cd15d72a/827
+http://api.vthanhtivi.pw/v1/getlink/tv360_s2/163/2
+
 
 
 
@@ -888,4 +894,54 @@ http://livecdn.fptplay.net/sdb/france24_hls.smil/chunklist_b2500000.m3u8
 
 #EXTINF:-1 tvg-id="" group-title="Quốc Tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/226.png", TRT World
 https://tv-trtworld.live.trt.com.tr/master_720.m3u8
+
+#EXTINF:-1 tvg-id="NHKGeneralTV.jp" group-title="Quốc Tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6f/NHK%E7%B7%8F%E5%90%88%E3%83%AD%E3%82%B42020-.png" catchup="append" catchup-days="3" catchup-source="http://123.30.146.168:21585/1301/video-${start}-${offset}.m3u8", NHK G
+http://123.30.146.168:21585/1301/video.m3u8
+
+#EXTINF:-1 tvg-id="NHKBS1.jp" group-title="Quốc Tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6d/NHKBS1%E3%83%AD%E3%82%B42020-.png" catchup="append" catchup-days="3" catchup-source="http://123.30.146.168:21585/1309/video-${start}-${offset}.m3u8", NHK BS1
+http://123.30.146.168:21585/1309/video.m3u8
+
+#EXTINF:-1 tvg-id="NHKBSPremium.jp" group-title="Quốc Tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/21/NHK_BS%E3%83%97%E3%83%AC%E3%83%9F%E3%82%A2%E3%83%A0_%E6%96%B0%E3%83%AD%E3%82%B4.png" catchup="append" catchup-days="3" catchup-source="http://123.30.146.168:21585/1310/video-${start}-${offset}.m3u8", NHK BS Premium
+http://123.30.146.168:21585/1310/video.m3u8
+
+#EXTINF:-1 tvg-id="TVAsahi.jp" group-title="Quốc Tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/TV_Asahi_Logo.svg/440px-TV_Asahi_Logo.svg.png" catchup="append" catchup-days="3" catchup-source="http://123.30.146.168:21585/1304/video-${start}-${offset}.m3u8", TV Asahi
+http://123.30.146.168:21585/1304/video.m3u8
+
+#EXTINF:-1 tvg-id="JOTXDTV.jp" group-title="Quốc Tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/TV_Tokyo_logo_20110629.svg/1200px-TV_Tokyo_logo_20110629.svg.png" catchup="append" catchup-days="3" catchup-source="http://123.30.146.168:21585/1306/video-${start}-${offset}.m3u8", TV Tokyo
+http://123.30.146.168:21585/1306/video.m3u8
+
+#EXTINF:-1 tvg-id="NipponTV.jp" group-title="Quốc Tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Nippon_TV_logo_2014.svg/1200px-Nippon_TV_logo_2014.svg.png" catchup="append" catchup-days="3" catchup-source="http://123.30.146.168:21585/1303/video-${start}-${offset}.m3u8", Nippon TV
+http://123.30.146.168:21585/1303/video.m3u8
+
+#EXTINF:-1 tvg-id="JOMXDTV.jp" group-title="Quốc Tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Tokyo_metropolitan_television_logo_%28rainbow%29.svg/2560px-Tokyo_metropolitan_television_logo_%28rainbow%29.svg.png", Tokyo MX1
+http://neetball.net/live/test2.m3u8
+
+
+#EXTINF:-1 tvg-id="BSNipponTV.jp" group-title="Quốc Tế" tvg-logo="https://www.nettvpro.live/uploads/allimg/21/1-2105021154150-L.jpg" catchup="append" catchup-days="3" catchup-source="http://123.30.146.168:21585/1311/video-${start}-${offset}.m3u8", BS-NTV
+http://123.30.146.168:21585/1311/video.m3u8
+
+#EXTINF:-1 tvg-id="BSAsahi.jp" group-title="Quốc Tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a7/BS%E6%9C%9D%E6%97%A5.png" catchup="append" catchup-days="3" catchup-source="http://123.30.146.168:21585/1312/video-${start}-${offset}.m3u8", BS Asahi
+http://123.30.146.168:21585/1312/video.m3u8
+
+#EXTINF:-1 tvg-id="BSTBS.jp" group-title="Quốc Tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/BS-TBS_2020.svg/1280px-BS-TBS_2020.svg.png" catchup="append" catchup-days="3" catchup-source="http://123.30.146.168:21585/1313/video-${start}-${offset}.m3u8", BS-TBS
+http://123.30.146.168:21585/1313/video.m3u8
+
+#EXTINF:-1 tvg-id="WOWOWPrime.jp" group-title="Quốc Tế" tvg-logo="https://kuma-video.com/wp-content/uploads/2020/04/prime.jpg" catchup="append" catchup-days="3" catchup-source="http://123.30.146.168:21585/1501/video-${start}-${offset}.m3u8", WOWOW Prime
+http://123.30.146.168:21585/1501/video.m3u8
+
+#EXTINF:-1 tvg-id="WOWOWLive.jp" group-title="Quốc Tế" tvg-logo="https://www.ztv.co.jp/assets/img/pages/service/tv/digital/channel/10/10-02.jpg" catchup="append" catchup-days="3" catchup-source="http://123.30.146.168:21585/1503/video-${start}-${offset}.m3u8", WOWOW Live
+http://123.30.146.168:21585/1503/video.m3u8
+
+#EXTINF:-1 tvg-id="WOWOWCinema.jp" group-title="Quốc Tế" tvg-logo="https://www.zne-iptv.com/wp-content/uploads/2017/10/23-WOWOW-CINEMA.jpg" catchup="append" catchup-days="3" catchup-source="http://123.30.146.168:21585/1502/video-${start}-${offset}.m3u8", WOWOW Cinema
+http://123.30.146.168:21585/1502/video.m3u8
+
+#EXTINF:-1 tvg-id="Star1.jp" group-title="Quốc Tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Star_Channel-Japan.svg/1200px-Star_Channel-Japan.svg.png" catchup="append" catchup-days="3" catchup-source="http://123.30.146.168:21585/1504/video-${start}-${offset}.m3u8", Star 1
+http://123.30.146.168:21585/1504/video.m3u8
+
+#EXTINF:-1 tvg-id="Star2.jp" group-title="Quốc Tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Star_Channel-Japan.svg/1200px-Star_Channel-Japan.svg.png" catchup="append" catchup-days="3" catchup-source="http://123.30.146.168:21585/1505/video-${start}-${offset}.m3u8", Star 2
+http://123.30.146.168:21585/1505/video.m3u8
+
+#EXTINF:-1 tvg-id="Star3.jp" group-title="Quốc Tế" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Star_Channel-Japan.svg/1200px-Star_Channel-Japan.svg.png" catchup="append" catchup-days="3" catchup-source="http://123.30.146.168:21585/1506/video-${start}-${offset}.m3u8", Star 3
+http://123.30.146.168:21585/1506/video.m3u8
+
 
