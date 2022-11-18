@@ -133,13 +133,13 @@ https://856175157.r.vtvcdn.com/ondrm/FILM_TV/m20_index.m3u8
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 https://856175157.r.vtvcdn.com/ondrm/VFAMILY/m20_index.m3u8
 
-#EXTINF:-1 group-title="VTVCab" tvg-id="VTVCab23hd" tvg-logo="https://i.ibb.co/crJgjQM/cab21.png", VTVcab21 | Kids
+#EXTINF:-1 tvg-id="vtvcab21hd" group-title="VTVCab" tvg-logo="https://i.ibb.co/crJgjQM/cab21.png", VTVcab21 | Kids
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://api.tbtv.us/vieon/c7081cb61079225271bc0e990d15c8a4cd15d72a/vtvcab21-cartoon-kid
+https://856175157.r.vtvcdn.com/ondrm/BIBI_PLUS_clear/m20_index.m3u8
 
-#EXTINF:-1 group-title="VTVCab" tvg-id="VTVCab23hd" tvg-logo="https://i.ibb.co/NKVBcfW/cab22.png", VTVcab22 | Life
+#EXTINF:-1 tvg-id="vtvcab22hd" group-title="VTVCab" tvg-logo="https://i.ibb.co/NKVBcfW/cab22.png", VTVcab22 | Life
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://api.tbtv.us/vieon/c7081cb61079225271bc0e990d15c8a4cd15d72a/vtvcab22-life-tv
+https://856175157.r.vtvcdn.com/ondrm/LIFE_TV/m20_index.m3u8
 
 #EXTINF:-1 tvg-id="vtvcab23hd" group-title="VTVCab" tvg-logo="https://i.ibb.co/d767x9L/ONGolf.png", VTVcab23 | ON Golf
 https://livevlive.vtvcab.vn/hls/OS_THETHAO_GOLF_HD/sc-gaFEAA/m30_index.m3u8
@@ -154,7 +154,6 @@ https://livevlive.vtvcab.vn/hls/OS_ONVFFTV/sc-gaFEAQ/m30_index.m3u8
 #EXTINF:-1 group-title="VTVCab" tvg-id="" tvg-logo="https://i.ibb.co/cyZzvbW/golfnews.png" , VTVcab23 |  Golf News
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 https://884030f97a.vws.vegacdn.vn/live/_definst_/stream_1_a0acb/chunklist.m3u8
-
 
 
 
