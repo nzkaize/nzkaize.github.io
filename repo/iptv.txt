@@ -307,7 +307,7 @@ https://vips-livecdn.fptplay.net/hda1/quocphongvnhd_vhls.smil/chunklist_b5000000
 #EXTINF:-1 group-title="Thiết yếu" tvg-id="ttxvnhd" tvg-logo="https://i.ibb.co/xSZygFq/VNEWS.png",VNews - TTXVN HD
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 https://livecdn.fptplay.net/hda2/ttxvn_vhls.smil/chunklist_b5000000.m3u8
-#EXTINF:-1 group-title="Thiết yếu" tvg-id="" tvg-logo="https://i.ibb.co/6yBdmNj/vovhd.png", VOV TV HD
+#EXTINF:-1 group-title="Thiết yếu" tvg-id="vovtvhd" tvg-logo="https://i.ibb.co/6yBdmNj/vovhd.png", VOV TV HD
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 http://cdn.vovtv.mediatech.vn/vovlive/tv1live.m3u8
 
