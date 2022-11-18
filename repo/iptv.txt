@@ -701,7 +701,8 @@ https://d18dyiwu97wm6q.cloudfront.net/playlist2160p.m3u8
 
 #EXTINF:-1 group-title="Quốc Tế" tvg-id="musicbox" tvg-logo="https://i.ibb.co/Z17szpD/Box-Music-cc.webp", Music Box
 #EXTVLCOPT:http-user-agent=TB-SPORT
-https://api.tbtv.us/cliptv/c7081cb61079225271bc0e990d15c8a4cd15d72a/840
+#https://api.tbtv.us/cliptv/c7081cb61079225271bc0e990d15c8a4cd15d72a/840
+https://dl.dropboxusercontent.com/s/7aau0brn7ad9z9j/
 
 #EXTINF:0 tvg-id="mtvhd" group-title="Quốc Tế", tvg-logo="https://i.ibb.co/j66J0rV/ccmtv.png",MTV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
