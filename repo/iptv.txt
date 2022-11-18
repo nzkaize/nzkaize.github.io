@@ -699,8 +699,7 @@ https://d18dyiwu97wm6q.cloudfront.net/playlist2160p.m3u8
 
 #___ CA NHAC ____
 
-#EXTINF:-1 group-title="Quốc Tế" tvg-id="musicbox" tvg-logo="https://i.ibb.co/Z17szpD/Box-Music-cc.webp", Music Box
-#EXTVLCOPT:http-user-agent=TB-SPORT
+#EXTINF:-1 tvg-id="musicbox" group-title="Quốc Tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/257.png", Music Box
 http://hoaiptv.duckdns.org:8002/live/cliptv.php?id=Music-Box
 
 #EXTINF:0 tvg-id="mtvhd" group-title="Quốc Tế", tvg-logo="https://i.ibb.co/j66J0rV/ccmtv.png",MTV
