@@ -74,7 +74,7 @@ https://livevlive.vtvcab.vn/hls/OS_THETHAO_HD/sc-gaFEAA/m30_index.m3u8
 
 #EXTINF:-1 group-title="VTVCab" tvg-id="vtvcab4hd" tvg-logo="https://i.ibb.co/6rGTnrQ/VTVCAB4.png", VTVcab4 | Văn Hóa
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://api.tbtv.us/vieon/c7081cb61079225271bc0e990d15c8a4cd15d72a/vtvcab4-phim-dac-sac
+https://856175157.r.vtvcdn.com/ondrm/VAN_HOA/m20_index.m3u8
 
 #EXTINF:-1 tvg-id="vtvcab5hd" group-title="VTVCab" tvg-logo="https://i.imgur.com/XhtsKmb.png", VTVcab5 | E Channel
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36
@@ -85,11 +85,11 @@ https://livevlive.vtvcab.vn/hls/OS_HAY_TV/sc-gaFEAA/m30_index.m3u8
 
 #EXTINF:-1 group-title="VTVCab" tvg-id="vtvcab7hd" tvg-logo="https://i.ibb.co/fNtY0y4/VTVCAB7.png", VTVcab7 | Sức khỏe và Cuộc sống
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://api.tbtv.us/vieon/c7081cb61079225271bc0e990d15c8a4cd15d72a/vtvcab7
+https://856175157.r.vtvcdn.com/ondrm/D_DRAMAS_HD/m30_index.m3u8
 
 #EXTINF:-1 group-title="VTVCab" tvg-id="vtvcab8hd" tvg-logo="https://i.ibb.co/qWrjBQ0/VTVCAB8.png", VTVcab8 | BiBi
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://api.tbtv.us/vieon/c7081cb61079225271bc0e990d15c8a4cd15d72a/vtvcab8-bibi
+https://856175157.r.vtvcdn.com/ondrm/BIBI/m20_index.m3u8
 
 #EXTINF:-1 group-title="VTVCab" tvg-id="vtvcab9hd" tvg-logo="https://i.ibb.co/Kbjn4zW/VTVCAB9.png", VTVcab9 | Info TV
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
@@ -101,11 +101,11 @@ https://856175157.r.vtvcdn.com/ondrm/O2_TV/m20_index.m3u8
 
 #EXTINF:-1 group-title="VTVCab" tvg-id="vtvcab11hd" tvg-logo="https://i.ibb.co/b531wmp/VTVCAB11.png", VTVcab11 | Vgs Shop
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://api.tbtv.us/vieon/c7081cb61079225271bc0e990d15c8a4cd15d72a/vtvcab11-vgs-shop
+https://vtsstr7.tv24.vn/live/VTVcab11.smil/chunklist.m3u8?cc
 
 #EXTINF:-1 group-title="VTVCab" tvg-id="vtvcab12hd" tvg-logo="https://i.ibb.co/r7pJj3r/VTVCAB12.png", VTVcab12 | Style TV
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://api.tbtv.us/vieon/c7081cb61079225271bc0e990d15c8a4cd15d72a/vtvcab12-style-tv
+https://livevlive.vtvcab.vn/hls/OS_STYLE_TV_HD/sc-gaFEAA/m30_index.m3u8
 
 #EXTINF:0 tvg-id="vtvcab13hd" type="stream" group-title="VTVCab" tvg-logo="https://i.ibb.co/QCMBQnq/VTVCAB13.png",VTVcab13 | Huyndai Shopping
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
@@ -113,14 +113,14 @@ https://vips-livecdn.fptplay.net/sdb/vtvhyundai_hls.smil/chunklist_b2500000.m3u8
 
 #EXTINF:-1 group-title="VTVCab" tvg-id="vtvcab15hd" tvg-logo="https://i.ibb.co/Y8XXbCP/VTVCAB15.png", VTVcab15 | UM channel
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://api.tbtv.us/vieon/c7081cb61079225271bc0e990d15c8a4cd15d72a/vtvcab15
+https://856175157.r.vtvcdn.com/ondrm/M_CHANNEL/m20_index.m3u8
 
 #EXTINF:-1 tvg-id="vtvcab16hd" group-title="VTVCab" tvg-logo="https://i.ibb.co/nkytmVd/cab16.png", VTVcab16 | On Football
 https://livevlive.vtvcab.vn/hls/OS_BONGDA_HD/sc-gaFEAA/m30_index.m3u8
 
 #EXTINF:-1 group-title="VTVCab" tvg-id="vtvcab17hd" tvg-logo="https://i.ibb.co/zVQ2Qgf/VTVCAB17.png", VTVcab17 | Yeah1TV
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://api.tbtv.us/vieon/c7081cb61079225271bc0e990d15c8a4cd15d72a/vtvcab17-yeah1-tv
+https://856175157.r.vtvcdn.com/ondrm/YEAH1_TV/m20_index.m3u8
 
 #EXTINF:-1 tvg-id="vtvcab18hd" group-title="VTVCab" tvg-logo="https://i.ibb.co/hXrdYRW/cccab18.png", VTVcab18 | ON Sports News
 https://livevlive.vtvcab.vn/hls/OS_THETHAO_TINTUC_HD/sc-gaFEAA/m30_index.m3u8
@@ -701,10 +701,7 @@ https://d18dyiwu97wm6q.cloudfront.net/playlist2160p.m3u8
 
 #EXTINF:-1 group-title="Quốc Tế" tvg-id="musicbox" tvg-logo="https://i.ibb.co/Z17szpD/Box-Music-cc.webp", Music Box
 #EXTVLCOPT:http-user-agent=TB-SPORT
-#https://api.tbtv.us/cliptv/c7081cb61079225271bc0e990d15c8a4cd15d72a/840
-#https://dl.dropboxusercontent.com/s/7aau0brn7ad9z9j/
-http://hoaiptv.duckdns.org:8002/live/cliptv.php?id=Music-Box
-
+https://api.tbtv.us/cliptv/c7081cb61079225271bc0e990d15c8a4cd15d72a/840
 
 #EXTINF:0 tvg-id="mtvhd" group-title="Quốc Tế", tvg-logo="https://i.ibb.co/j66J0rV/ccmtv.png",MTV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
