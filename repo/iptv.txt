@@ -126,7 +126,9 @@ https://livevlive.vtvcab.vn/hls/OS_BONGDA_HD/sc-gaFEAA/m30_index.m3u8
 
 #EXTINF:-1 group-title="VTVCab" tvg-id="vtvcab17hd" tvg-logo="https://i.ibb.co/zVQ2Qgf/VTVCAB17.png", VTVcab17 | Yeah1TV
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://856175157.r.vtvcdn.com/ondrm/YEAH1_TV/m20_index.m3u8
+#https://856175157.r.vtvcdn.com/ondrm/YEAH1_TV/m20_index.m3u8
+https://nvzoftzsvflivcf.vcdn.com.vn/vtvcab17/vtvcab17@high.m3u8
+
 
 #EXTINF:-1 tvg-id="vtvcab18hd" group-title="VTVCab" tvg-logo="https://i.ibb.co/hXrdYRW/cccab18.png", VTVcab18 | ON Sports News
 https://livevlive.vtvcab.vn/hls/OS_THETHAO_TINTUC_HD/sc-gaFEAA/m30_index.m3u8
