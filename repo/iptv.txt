@@ -702,7 +702,7 @@ http://livecdn.fptplay.net/hda2/animalplanet_vhls.smil/chunklist_b5000000.m3u8
 http://vips-livecdn.fptplay.net/hda2/bbcearth_vhls.smil/chunklist_b5000000.m3u8
 
 #EXTINF:-1 tvg-id="love_natural" group-title="Quốc Tế" tvg-name="Love Natural (HD)" tvg-logo="https://i.imgur.com/cb4nl4G.jpg", Love Natural
-http://bamus-eng-roku.amagi.tv/playlist1080p.m3u8
+#http://bamus-eng-roku.amagi.tv/playlist1080p.m3u8
 
 #EXTINF:0 tvg-id="" group-title="Quốc Tế" tvg-logo="https://i.ibb.co/WVdSPsM/Love-Nature-TV-BEARTV.png" , Love Nature 4K
 https://d18dyiwu97wm6q.cloudfront.net/playlist2160p.m3u8
