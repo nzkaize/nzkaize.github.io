@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addons>
 <addon id="plugin.video.KaizeKodiWizard" name="[B][COLOR=cyan]Kaize Kodi Wizard[/COLOR][/B]" version="1.0.5" provider-name="KaizeKodi">
   <requires>
     <import addon="xbmc.python" version="3.0.1"/>
@@ -15,4 +14,3 @@
     <platform>all</platform>
   </extension>
 </addon>
-</addons>
