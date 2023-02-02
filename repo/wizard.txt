@@ -1,0 +1,5 @@
+name="Kaize Build"
+url="https://www.dropbox.com/s/m6niitka7u2j4r2/KaizeKodiBuild.zip?dl=1"
+img="http://sifreeuktv.comuf.com/Wizard/icon.png"
+fanart="http://sifreeuktv.comuf.com/Wizard/fanart.jpg"
+description="Best Kodi Tutorials. @SimpleKodi"
