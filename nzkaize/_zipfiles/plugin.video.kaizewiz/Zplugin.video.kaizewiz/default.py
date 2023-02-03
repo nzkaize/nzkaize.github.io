@@ -22,8 +22,17 @@ PATH = "kaizewiz"
 def CATEGORIES():
     link = OPEN_URL('https://raw.githubusercontent.com/nzkaize/nzkaize.github.io/main/repo/wizard.txt').decode("utf-8").replace('\n','').replace('\r','')
     match = re.compile('name="(.+?)".+?rl="(.+?)".+?mg="(.+?)".+?anart="(.+?)".+?escription="(.+?)"').findall(link)
+    addon_info       = ADDON.getAddonInfo
+    addon_version   = addon_info('version')
+    addon_name      = addon_info('name')
+    addon_icon      = addon_info("icon")
+    addon_fanart    = addon_info("fanart")
+    print("addon_info: "+str(addon_info))
+    print("addon_icon: "+str(addon_icon))
+    print("addon_fanart: "+str(addon_fanart))
+
     for name,url,iconimage,fanart,description in match:
-        addDir(name,url,1,iconimage,fanart,description)
+        addDir(name,url,1,addon_icon,addon_fanart,description)
     setView('movies', 'MAIN')
         
     
@@ -145,7 +154,7 @@ def addDir(name,url,mode,iconimage,fanart,description):
         ok=True
         
         liz=xbmcgui.ListItem(name)
-        liz.setArt({'icon': "DefaultFolder.png", 'thumb': iconimage})
+        liz.setArt({'icon': iconimage, 'thumb': iconimage})
         liz.setInfo( type="Music", infoLabels={ "Title": name, "Plot": description } )
         liz.setProperty( "Fanart_Image", fanart )
         ok=xbmcplugin.addDirectoryItem(handle=int(sys.argv[1]),url=u,listitem=liz,isFolder=False)
@@ -213,6 +222,14 @@ print("URL: "+str(url))
 print("Name: "+str(name))
 print("IconImage: "+str(iconimage))
 
+
+addon_info       = ADDON.getAddonInfo
+addon_version   = addon_info('version')
+addon_name      = addon_info('name')
+addon_icon      = addon_info("icon")
+addon_fanart    = addon_info("fanart")
+print("addon_icon: "+str(addon_icon))
+print("addon_fanart: "+str(addon_fanart))
 
 def setView(content, viewType):
     # set content type so library shows more views and info

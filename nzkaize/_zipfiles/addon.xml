@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-  <addon id="plugin.video.kaizewiz" name="[B][COLOR=cyan]Kaize Kodi Wizard 1[/COLOR][/B]" version="1.0.3" provider-name="KaizeKodi">
+  <addon id="plugin.video.kaizewiz" name="[B][COLOR=cyan]Kaize Kodi Wizard[/COLOR][/B]" version="1.0.3" provider-name="KaizeKodi">
     <requires>
       <import addon="xbmc.python" version="3.0.1"/>
     </requires>
@@ -10,11 +10,15 @@
     </extension>
     
     <extension point="xbmc.addon.metadata">
-      <summary lang="en">[COLOR=cyan]Kaize Kodi Wizard 1[/COLOR]</summary>
+      <summary lang="en">[COLOR=cyan]Kaize Kodi Wizard[/COLOR]</summary>
       <description lang="en">This is Kaize Kodi Wizard.
       Use this to install many different builds.
       </description>
       <platform>all</platform>
+      <assets>
+			  <icon>icon.png</icon>
+			  <fanart>fanart.jpg</fanart>
+		  </assets>
     </extension>
   </addon>
 </addons>
