@@ -2,7 +2,10 @@
 <addons>
   <addon id="plugin.video.kaizewiz" name="[B][COLOR=cyan]Kaize Kodi Wizard[/COLOR][/B]" version="1.0.3" provider-name="KaizeKodi">
     <requires>
-      <import addon="xbmc.python" version="3.0.1"/>
+      <import addon="xbmc.python" version="3.0.0" />
+      <import addon="script.module.requests" />
+      <import addon="script.module.six" />
+      <import addon="script.kodi.android.update" optional="true" version="1.3.2" />
     </requires>
 
     <extension point="xbmc.python.pluginsource" library="default.py">
