@@ -1,0 +1,12 @@
+{
+	"builds": [
+		{
+			"name": "Smokin - Smokin Build 19",
+			"version": "4.5",
+			"url": "http://localhost/test/_builds/KaizeKodiBuild.zip",
+			"icon": "https://ifitsnotyoursdontuseit.gitlab.io/itsnotyours/images/smokin19/icon.jpg",
+			"fanart": "https://ifitsnotyoursdontuseit.gitlab.io/itsnotyours/images/smokin19/fanart.jpg",
+			"description": "Smokin Build by James Murray"
+		}
+	]
+}
