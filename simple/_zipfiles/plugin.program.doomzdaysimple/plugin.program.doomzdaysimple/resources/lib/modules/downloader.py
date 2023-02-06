@@ -34,7 +34,8 @@ class Downloader:
     def get_length(self, response, meth = 'session'):
         try:
             if meth in ['session', 'requests']:
-                return response.headers['X-Dropbox-Content-Length']
+                # return response.headers['X-Dropbox-Content-Length']
+                return response.getheader('content-length')
             elif meth=='urllib':
                 return response.getheader('content-length')
         except KeyError:
