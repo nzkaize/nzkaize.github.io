@@ -2,6 +2,11 @@ import os
 from urllib.request import Request, urlopen
 import xbmc
 import xbmcgui
+import time
+
+USER_AGENT = ('Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36'
+                           ' (KHTML, like Gecko) Chrome/35.0.1916.153 Safari'
+                           '/537.36 SE 2.X MetaSr 1.0')
 
 class Downloader:
     def __init__(self, url):
@@ -40,71 +45,153 @@ class Downloader:
                 return response.getheader('content-length')
         except KeyError:
             return None
+
+    def _is_url(url):
+        try:  # Python 3
+            from urllib.parse import urlparse
+        except ImportError:  # Python 2
+            from urlparse import urlparse
+
+        try:
+            result = urlparse(url)
+            return all([result.scheme, result.netloc])
+        except ValueError:
+            return False
+
+    def get_keyboard(default="", heading="", hidden=False):
+        keyboard = xbmc.Keyboard(default, heading, hidden)
+        keyboard.doModal()
+        if keyboard.isConfirmed():
+            return keyboard.getText()
+        return default
+
+    def _check_url(self, url, cred):
+        import requests
+        print('###url: ', url)
+    # if self._is_url(url):
+        try:
+            response = requests.head(url, headers={'user-agent': USER_AGENT}, allow_redirects=True, auth=cred)
+            
+            if response.status_code < 300:
+                # logging.log("URL check passed for {0}: Status code [{1}]".format(url, response.status_code), level=xbmc.LOGDEBUG)
+                return True
+            elif response.status_code < 400:
+                # logging.log("URL check redirected from {0} to {1}: Status code [{2}]".format(url, response.headers['Location'], response.status_code), level=xbmc.LOGDEBUG)
+                return self._check_url(response.headers['Location'])
+            elif response.status_code == 401:
+                # logging.log("URL requires authentication for {0}: Status code [{1}]".format(url, response.status_code), level=xbmc.LOGDEBUG)
+                return 'auth'
+            else:
+                # logging.log("URL check failed for {0}: Status code [{1}]".format(url, response.status_code), level=xbmc.LOGDEBUG)
+                return False
+        except Exception as e:
+            # logging.log("URL check error for {0}: [{1}]".format(url, e), level=xbmc.LOGDEBUG)
+            return False
+        # else:
+            # logging.log("URL is not of a valid schema: {0}".format(url), level=xbmc.LOGDEBUG)
+            # return False
+
+    def open_url(self, url, stream=False, check=False, cred=None, count=0):
+        import requests
+        if not url:
+            return False
+
+        
+        dialog = xbmcgui.Dialog()
+        user_agent = {'user-agent': USER_AGENT}
+        count = 0
+        
+
+        valid = self._check_url(url, cred)
+
+        if not valid:
+            return False
+        else:
+            if check:
+                return True if valid else False
+                
+            if valid == 'auth' and not cred:
+                cred = (self.get_keyboard(heading='Username'), self.get_keyboard(heading='Password'))
+                
+            response = requests.get(url, headers=user_agent, timeout=10.000, stream=stream, auth=cred)
+
+            if response.status_code == 401:
+                retry = dialog.yesno('CONFIG.ADDONTITLE', 'Either the username or password were invalid. Would you like to try again?', yeslabel='Try Again', nolabel='Cancel')
+                
+                if retry and count < 3:
+                    count += 1
+                    cred = (self.get_keyboard(heading='Username'), self.get_keyboard(heading='Password'))
+                    
+                    response = open_url(url, stream, check, cred, count)
+                else:
+                    dialog.ok(CONFIG.ADDONTITLE, 'Authentication Failed.')
+                    return False
+            
+            return response
     
     def download_build(self, name,zippath,meth='session', stream=True):
-        if meth in 'session':
-            response = self.get_session(decoding=False, stream=stream)
-        elif meth in 'requests':
-            response = self.get_requests(decoding=False, stream=stream)
-        elif meth in 'urllib':
-            response = self.get_urllib(decoding=False)
-        
-        length = self.get_length(response,meth=meth)
-        if length is not None:
-            length2 = int(int(length)/1000000)
-        else:
-            length2 = 'Unknown Size'
+
         dp = xbmcgui.DialogProgress()
-        dp.create(name + ' - ' + str(length2) + ' MB', 'Downloading your build...')
+        dp.create(name, 'Downloading your build...')
         dp.update(0, 'Downloading your build...')
         cancelled = False
         tempzip = open(zippath, 'wb')
-        if length:
-            size = 0
-            if meth in ['session', 'requests']:
-                for chunk in response.iter_content(chunk_size=max(1000000,500000)):
-                    size += len(chunk)
-                    size2 = int(size/1000000)
-                    tempzip.write(chunk)
-                    perc = int(int(size)/int(length)*100)
-                    dp.update(perc, 'Downloading your build...' + '\n' + str(size2) + '/' + str(length2) + 'MB')
-                    if dp.iscanceled():
-                        cancelled = True
-                        break
-            elif meth in 'urllib':
-                blocksize = max(int(length)/512, 1000000)
-                while True:
-                    buf = response.read(blocksize)
-                    if not buf:
-                        break
-                    size += len(buf)
-                    size2 = int(size/1000000)
-                    perc = int(int(size)/int(length)*100)
-                    tempzip.write(buf)
-                    dp.update(perc, 'Downloading your build...' + '\n' + str(size2) + '/' + str(length2) + 'MB')
-                    if dp.iscanceled():
-                        cancelled = True
-                        break
-                
+
+        response = self.open_url(self.url, stream)
+
+        if not response:
+            # logging.log_notify(CONFIG.ADDONTITLE,
+                            #    '[COLOR {0}]Build Install: Invalid Zip Url![/COLOR]'.format(CONFIG.COLOR2))
+            return
         else:
-            dp.update(50, 'Downloading your build...')
-            blocksize = max(1000000, 500000)
-            for chunk in response.iter_content(blocksize):
+            total = response.headers.get('content-length')
+
+        if total is None:
+            tempzip.write(response.content)
+        else:
+            downloaded = 0
+            total = int(total)
+            start_time = time.time()
+            mb = 1024*1024
+            
+            for chunk in response.iter_content(chunk_size=max(int(total/512), mb)):
+                downloaded += len(chunk)
+                tempzip.write(chunk)
+                
+                done = int(100 * downloaded / total)
+                kbps_speed = downloaded / (time.time() - start_time)
+                
+                if kbps_speed > 0 and not done >= 100:
+                    eta = (total - downloaded) / kbps_speed
+                else:
+                    eta = 0
+                
+                kbps_speed = kbps_speed / 1024
+                type_speed = 'KB'
+                
+                if kbps_speed >= 1024:
+                    kbps_speed = kbps_speed / 1024
+                    type_speed = 'MB'
+                    
+                currently_downloaded = '[COLOR %s][B]Size:[/B] [COLOR %s]%.02f[/COLOR] MB of [COLOR %s]%.02f[/COLOR] MB[/COLOR]' % ('yellow', 'cyan', downloaded / mb, 'cyan', total / mb)
+                speed = '[COLOR %s][B]Speed:[/B] [COLOR %s]%.02f [/COLOR]%s/s ' % ('yellow', 'cyan', kbps_speed, type_speed)
+                div = divmod(eta, 60)
+                speed += '[B]ETA:[/B] [COLOR %s]%02d:%02d[/COLOR][/COLOR]' % ('cyan', div[0], div[1])
+                
+                dp.update(done, '\n' + str(currently_downloaded) + '\n' + str(speed)) 
                 if dp.iscanceled():
                     cancelled = True
                     break
-                tempzip.write(chunk)
+
         if cancelled:
             xbmc.sleep(1000)
             os.unlink(zippath)
             dialog = xbmcgui.Dialog()
             dialog.ok('Cancelled', 'Download Cancelled')
             return
-        if length:
-            dp.update(100, 'Downloading your build...Done!' + '\n' + str(size2) + '/' + str(length2) + 'MB')
-        else:
-            dp.update(100, 'Downloading your build...Done!')
+            
         tempzip.close()
+
     
     def download_zip(self, dest):
         r = self.get_requests(decoding=False, stream=True)
