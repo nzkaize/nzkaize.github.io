@@ -16,7 +16,7 @@ import xbmcaddon
 addon_id = xbmcaddon.Addon().getAddonInfo('id')
 
 '''#####-----Build File-----#####'''
-buildfile = 'http://localhost/test/_builds/builds.json'
+buildfile = 'https://raw.githubusercontent.com/nzkaize/nzkaize.github.io/main/simple/_builds/builds.json'
 
 '''#####-----Notifications File-----#####'''
 notify_url  = 'https://gitlab.com/ifitsnotyoursdontuseit/ifitsnotyoursdontuseit/raw/main/notify.txt'
