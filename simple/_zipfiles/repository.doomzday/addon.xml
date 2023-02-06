@@ -2,21 +2,11 @@
 <addon id="repository.doomzday" name="Doomzday Repo" version="1.1.0" provider-name="DD Team">
     <extension point="xbmc.addon.repository" name="Doomzday Repo">
 		<dir>
-			<info compressed="false">http://localhost/test/_zipfiles/addons.xml</info>
-			<checksum>http://localhost/test/_zipfiles/addons.xml.md5</checksum>
-			<datadir zip="true">http://localhost/test/_zipfiles/</datadir>
+			<info compressed="false">https://nzkaize.github.io/simple/_zipfiles/addons.xml</info>
+			<checksum>https://nzkaize.github.io/simple/_zipfiles/addons.xml.md5</checksum>
+			<datadir zip="true">https://nzkaize.github.io/simple/_zipfiles/</datadir>
 			<hashes>false</hashes>
 		</dir>
-		<dir>
-            <info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
-        </dir>
-        <dir>
-           <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
-           <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
-           <datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
-        </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="en_GB">Doomzday Repository</summary>
