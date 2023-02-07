@@ -1,0 +1,12 @@
+{
+	"builds": [
+		{
+			"name": "Kaize - Kaize Build 20",
+			"version": "4.5",
+			"url": "https://www.dropbox.com/s/m6niitka7u2j4r2/KaizeKodiBuild.zip?dl=1",
+			"icon": "https://ifitsnotyoursdontuseit.gitlab.io/itsnotyours/images/smokin19/icon.jpg",
+			"fanart": "https://ifitsnotyoursdontuseit.gitlab.io/itsnotyours/images/smokin19/fanart.jpg",
+			"description": "Kaize Build by Kaize"
+		}
+	]
+}
