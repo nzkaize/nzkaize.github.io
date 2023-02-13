@@ -129,6 +129,7 @@ http://livecdn.fptplay.net/hda3/axnhd_vhls.smil/chunklist_b5000000.m3u8
 
 #EXTINF:-1 tvg-id="hgtv" group-title="Quốc Tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/234.png", HGTV
 https://api.vthanhtivi.pw/v2/getlink/tv360/99/2.m3u8
+#https://q.dl.dropboxusercontent.com/s/mdpr9elhverv3kb//   																						 ㅤ
 
 #EXTINF:-1 tvg-id="cinemaworldhd" group-title="Quốc Tế" tvg-name="Cinema World" tvg-logo="https://i.imgur.com/MqpUsLb.png",Cinema World
 http://livecdn.fptplay.net/hda2/cinemawork_vhls.smil/chunklist_b5000000.m3u8
@@ -266,12 +267,14 @@ http://livecdn.fptplay.net/hda1/outdoorfhd_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:-1 group-title="Quốc Tế" tvg-id="man" tvg-logo="https://i.ibb.co/HzMBHnp/man.png", MAN
 #EXTVLCOPT:http-user-agent=TB-SPORT
 #http://code.television4you.xyz/cliptv.php?id=837
-https://api.vthanhtivi.pw/v2/getlink/cliptv/837/chunklist_b5128000.m3u8
+#https://api.vthanhtivi.pw/v2/getlink/cliptv/837/chunklist_b5128000.m3u8
+https:///b.dl.dropboxusercontent.com/s/ztlu9qvjknkjjs9//   																						 ㅤ
 
 #EXTINF:-1 group-title="Quốc Tế" tvg-id="woman" tvg-logo="https://i.ibb.co/CBSf3yt/Woman.png", WOMAN
 #EXTVLCOPT:http-user-agent=TB-SPORT
 #http://api.vthanhtivi.pw/v1/getlink/tv360_s2/163/2
-https://api.vthanhtivi.pw/v2/getlink/tv360/163/2.m3u8
+#https://api.vthanhtivi.pw/v2/getlink/tv360/163/2.m3u8
+#https:///b.dl.dropboxusercontent.com/s/tbphepboygddvv8//   																						 ㅤ 
 
 #___HOAT HINH___
 #EXTINF:-1 tvg-id="animaxhd" group-title="Quốc Tế" tvg-name="ANIMAX" tvg-logo="https://i.imgur.com/RTgouGo.png",ANIMAX
