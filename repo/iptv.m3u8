@@ -167,6 +167,10 @@ https://api.vthanhtivi.pw/v2/getlink/cliptv/825/chunklist_b5128000.m3u8 @@
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 Mozilla/5.0.0 (Windows NT 10.0; Win64; 64) AppleWebKit/537.36/Gecko Chrome/81.0.4044.138 Safari/537.36
 https:///q.dl.dropboxusercontent.com/s/29h8399q6wuus8z//   	
 
+#EXTINF:-1 tvg-id="historyhd" group-title="Quốc Tế" tvg-logo="https://i.ibb.co/d2dJNWn/cchistory.webp",History
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 Mozilla/5.0.0 (Windows NT 10.0; Win64; 64) AppleWebKit/537.36/Gecko Chrome/81.0.4044.138 Safari/537.36
+https:///q.dl.dropboxusercontent.com/s/29h8399q6wuus8z//   																						 ㅤ
+#https://vstv.broadpeak-aas.com/bpk-tv/prod_history/default/i.mpd
 
 #___KHAM PHA___
 #EXTINF:-1 tvg-id="discoveryhd" group-title="Quốc Tế" tvg-name="Discovery" tvg-logo="https://i.imgur.com/BFzpWER.png",Discovery
