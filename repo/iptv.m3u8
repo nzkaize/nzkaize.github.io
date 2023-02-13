@@ -159,13 +159,9 @@ https://api.vthanhtivi.pw/v2/getlink/cliptv/822/chunklist_b5128000.m3u8 @@
 #EXTINF:-1 tvg-id="hollywoodclassics" group-title="Quốc Tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/188.png", Hollywood Classics SCTV
 #https://api.tbtv.us/clVTVCab/c7081cb61079225271bc0e990d15c8a4cd15d72a/825
 #http://code.television4you.xyz/cliptv.php?id=825
-https://api.vthanhtivi.pw/v2/getlink/cliptv/825/chunklist_b5128000.m3u8 @@
+#https://api.vthanhtivi.pw/v2/getlink/cliptv/825/chunklist_b5128000.m3u8 @@
 
 
-
-#EXTINF:-1 tvg-id="historyhd1" group-title="Quốc Tế" tvg-logo="https://i.ibb.co/d2dJNWn/cchistory.webp",History1
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 Mozilla/5.0.0 (Windows NT 10.0; Win64; 64) AppleWebKit/537.36/Gecko Chrome/81.0.4044.138 Safari/537.36
-https:///q.dl.dropboxusercontent.com/s/29h8399q6wuus8z//   	
 
 #EXTINF:-1 tvg-id="historyhd" group-title="Quốc Tế" tvg-logo="https://i.ibb.co/d2dJNWn/cchistory.webp",History
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 Mozilla/5.0.0 (Windows NT 10.0; Win64; 64) AppleWebKit/537.36/Gecko Chrome/81.0.4044.138 Safari/537.36
