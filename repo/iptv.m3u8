@@ -146,10 +146,9 @@ http://livecdn.fptplay.net/hda3/warnertv_vhls.smil/chunklist_b5000000.m3u8
 
 
 #_____KENH BI LOI______
-#EXTINF:-1 tvg-id="inthebox" group-title="📦| In The Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/189.png", In The Box
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-#https://api.vthanhtivi.pw/v2/getlink/cliptv/838/chunklist_b5128000.m3u8 @@
-https:///b.dl.dropboxusercontent.com/s/yfahd6soi0j4e4o//
+#EXTINF:0 tvg-id="inthebox" group-title="Quốc Tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/189.png",In The Box
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+https:///b.dl.dropboxusercontent.com/s/yfahd6soi0j4e4o//   																						 ㅤ
 
 #EXTINF:-1 tvg-id="boxmovie1" group-title="Quốc Tế" tvg-logo="https://i.ibb.co/gFc8c04/BM1-M.png",Box movie¹
 #EXTVLCOPT:http-user-agent=TB-SPORT
@@ -164,10 +163,9 @@ https://api.vthanhtivi.pw/v2/getlink/cliptv/825/chunklist_b5128000.m3u8 @@
 
 
 
-#EXTINF:-1 tvg-id="historyhd" group-title="Quốc Tế" tvg-logo="https://cdn.hqth.me/logo/thumbs/209.png", History HD
-#http://live.vthanhtivi.pw:8080/history
-#http://api.vthanhtivi.pw/v2/getlink/vtvcabon/HISTORY_HD/playlist.m3u8
-https:///q.dl.dropboxusercontent.com/s/29h8399q6wuus8z//
+#EXTINF:-1 tvg-id="historyhd" group-title="Quốc Tế" tvg-logo="https://i.ibb.co/d2dJNWn/cchistory.webp",History
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 Mozilla/5.0.0 (Windows NT 10.0; Win64; 64) AppleWebKit/537.36/Gecko Chrome/81.0.4044.138 Safari/537.36
+https:///q.dl.dropboxusercontent.com/s/29h8399q6wuus8z//   	
 
 
 #___KHAM PHA___
